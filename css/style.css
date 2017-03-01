@@ -162,7 +162,7 @@ content: '';top: -2em;left: 5.5em;width: 20%;height: 0em;border-bottom: 2em soli
 
 /* HEADER */
 .header{ width:100%; height:100%; float:left; position:relative;}
-.int-header{ width:100%; height:300px; background:url(../images/slider-pattern.png) center #ffbb3f;}
+.int-header{ width:100%; height:300px; background:url(../images/slider-pattern.png) center #3F51B5;}
 .int-header .page-title{ font-size:70px; color:#fff; font-weight:700;}
 .int-header .breadcrumb{ margin:0; padding:0; background:none;} 
 .int-header .breadcrumb li{ float:left; font-size:13px; color:#fff;}
@@ -227,7 +227,7 @@ content: '';top: -2em;left: 5.5em;width: 20%;height: 0em;border-bottom: 2em soli
 
 
 /* HERO IMAGE */
-.hero-filter-image{ width:100%; height:100%; position:absolute; left:0; top:0; background:#ffbb3f; overflow:hidden;}
+.hero-filter-image{ width:100%; height:100%; position:absolute; left:0; top:0; background:#999; overflow:hidden;}
 .hero-filter-image:after{content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #1d3162; mix-blend-mode: lighten;}
 .hero-filter-image .image{ width: 100%; height: 100%; position:absolute; left:0; top:0; -o-object-fit: cover; object-fit: cover; display: block; mix-blend-mode: multiply; -webkit-filter: grayscale(100%) contrast(1); filter: grayscale(100%) contrast(0.8);}
 .hero-filter-image canvas { display: block; vertical-align: bottom;}
@@ -443,7 +443,7 @@ content: '';top: -2em;left: 5.5em;width: 20%;height: 0em;border-bottom: 2em soli
 
 
 /* HOME SERVICES */
-.home-services{ width:100%; float:left; padding:100px 0; background:url(../images/parallax-bg1.jpg) bottom center no-repeat;}
+.home-services{ width:100%; float:left; padding:100px 0;}
 .home-services .services-box{ width:100%; float:left;}
 .home-services i{ display:inline-block;}
 .home-services i{background: -webkit-linear-gradient(#9ba0a9, #384254); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow:0 10px 10px rgba(0,0,0,0.2); }
@@ -454,7 +454,7 @@ content: '';top: -2em;left: 5.5em;width: 20%;height: 0em;border-bottom: 2em soli
 
 
 /* FUN FACTS */
-.fun-facts{ width:100%; float:left; background:#ffbb3f; padding:100px 0;}
+.fun-facts{ width:100%; float:left; background:#fff; padding:100px 0;}
 .fun-facts h2{ font-size:90px; font-weight:700; margin-top:0;}
 .fun-facts h4{  font-family:'Playfair Display', serif; font-size:19px; margin-bottom:50px; position:relative; padding-bottom:30px;}
 .fun-facts h4:after{content:''; width:100px; height:3px; background:#fff; position:absolute; left:0; bottom:0;}
@@ -471,7 +471,7 @@ content: '';top: -2em;left: 5.5em;width: 20%;height: 0em;border-bottom: 2em soli
 
 
 /* SOLUTIONS */
-.solutions{ width:100%; float:left; padding-top:100px; background:url(../images/parallax-bg1.jpg) bottom center no-repeat;}
+.solutions{ width:100%; float:left; padding-top:100px;}
 .solutions .features-box{ width:100%; margin-bottom:100px;}
 .solutions .features-box figure{ width:100%; float:left; margin-bottom:15px; position:relative;}
 .solutions .features-box figure img{ width:100%; border-radius:6px;}
@@ -498,7 +498,7 @@ content: '';top: -2em;left: 5.5em;width: 20%;height: 0em;border-bottom: 2em soli
 
 
 /* PROJECTS */
-.projects{ width:100%; float:left; padding-top:100px; background:url(../images/parallax-bg1.jpg) bottom center no-repeat;}
+.projects{ width:100%; float:left; padding-top:100px;}
 .projects .filter{ width:100%; float:left; margin:0; margin-bottom:-30px; padding:0; padding-left:30px; background:#ffbb3f; border-radius:4px; position:relative; z-index:2;}
 .projects .filter li{ float:left; margin-right:10px; list-style:none;}
 .projects .filter li a{ float:left; line-height:60px; padding:0 10px; font-weight:700; color:#fff; opacity:0.6;}
@@ -570,7 +570,7 @@ content: '';top: -2em;left: 5.5em;width: 20%;height: 0em;border-bottom: 2em soli
 
 
 /* LATEST NEWS */
-.latest-news{ width:100%; float:left; padding-top:100px; background:url(../images/parallax-bg1.jpg) bottom center no-repeat;}
+.latest-news{ width:100%; float:left; padding-top:100px;}
 .latest-news .news-box{ width:100%; float:left; margin-bottom:50px;}
 .latest-news .news-box figure{ width:100%;  float:left;}
 .latest-news .news-box figure img{ width:100%; border-radius:6px 6px 0 0}
